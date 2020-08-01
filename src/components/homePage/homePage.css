@@ -1,0 +1,60 @@
+.header-bg {
+  background-image: url('../../images/intro-bg.png');
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-title{
+  font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    color: rgb(32, 36, 40);
+}
+.hero-span {
+  color: rgb(0, 193, 141);
+  transition: none 0s ease 0s;
+  text-align: inherit;
+  line-height: 60px;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.hero-text{
+  z-index: 8;
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 400;
+  color: rgb(32, 36, 40);
+  display: block;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 0px center;
+}
+.btn-primary{
+  font-family: Poppins,Mirza,sans-serif;
+  color: #fff;
+  background-color: #413aa4 !important;
+  border-color: #413aa4 !important;
+}
+.text-light{
+  font-size: 13px !important;
+}
+.helpful-title{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #202428;
+  line-height: 1.4;
+  font-family: Poppins,Mirza,sans-serif;
+}
+.helpful-text{
+  font-family: Poppins,Mirza,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
