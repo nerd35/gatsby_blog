@@ -58,3 +58,14 @@
     font-size: 1rem;
     font-weight: 400;
 }
+.helpful-section-title{
+  font-size: 1rem;
+  color: #202428;
+  font-weight: 600;
+}
+.helpful-section-text{
+  font-family: Poppins,Mirza,sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
