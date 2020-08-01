@@ -1,14 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import HeroSection from "../components/homePage/heroSection"
-import PartnerSection from "../components/homePage/partnerSection"
-import HelpfulSection from "../components/homePage/helpfulSection"
-import BusinessSolution from "../components/homePage/businessSolution"
-import GetInTouch from '../components/homePage/getInTouch'
-import TestimonialSection from '../components/homePage/testimonialSection'
+import {HeroSection, PartnerSection, HelpfulSection, BusinessSolution, GetInTouch, TestimonialSection,  LatestNewsSection} from '../components/homePage'
 
 const IndexPage = () => (
   <div>
@@ -22,6 +18,7 @@ const IndexPage = () => (
       </Layout>
       <GetInTouch/>
       <TestimonialSection/>
+      <LatestNewsSection/>
     </div>
   </div>
 )
