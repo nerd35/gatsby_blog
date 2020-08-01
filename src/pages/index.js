@@ -7,6 +7,7 @@ import HeroSection from "../components/homePage/heroSection"
 import PartnerSection from "../components/homePage/partnerSection"
 import HelpfulSection from "../components/homePage/helpfulSection"
 import BusinessSolution from "../components/homePage/businessSolution"
+import GetInTouch from '../components/homePage/getInTouch'
 
 const IndexPage = () => (
   <div>
@@ -17,6 +18,7 @@ const IndexPage = () => (
         <PartnerSection />
         <HelpfulSection />
         <BusinessSolution/>
+        <GetInTouch/>
       </Layout>
     </div>
   </div>

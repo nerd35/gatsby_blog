@@ -90,3 +90,23 @@
   font-weight: 400;
   color: #5a6671;
 }
+
+.bg-warning{
+  background-color: #fc690a !important;
+}
+
+.get-in-touch-title{
+  color: #fff;
+  font-weight: 300;
+  font-size: 29px;
+  margin-top: 70px !important;
+}
+
+.get-in-touch-sub-title{
+  color: #fff;
+  font-weight: 600;
+  font-size: 29px;
+}
+.btn-info{
+  background-color: #413aa4 !important;
+}
