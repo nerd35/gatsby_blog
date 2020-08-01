@@ -67,5 +67,26 @@
   font-family: Poppins,Mirza,sans-serif;
   font-size: 0.8rem;
   font-weight: 400;
-  line-height: 2rem;
+}
+
+.business-solution-title{
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #202428;
+}
+.business-solution-text{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #202428;
+}
+.business-solution-section-title{
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #202428;
+}
+.business-solution-section-text{
+  font-family: Poppins,Mirza,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5a6671;
 }
