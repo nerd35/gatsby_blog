@@ -4,7 +4,7 @@ import "./homePage.css"
 
 const BusinessSolution = () => {
   return (
-    <div className="container-fluid border-bottom">
+    <div className="container-fluid">
       <div className="container">
         <div className="row mt-5">
           <div className="col-lg-12 col-sm-12 text-center">
@@ -39,6 +39,47 @@ const BusinessSolution = () => {
 
           <div className="col-lg-6 col-sm-12 mt-2">
             <img src={require("../../images/service1.png")} alt="img" />
+          </div>
+        </div>
+        <div className="row">
+        <div className="col-lg-6 col-sm-12 mt-2">
+          <img src={require("../../images/service2.png")} alt="img" />
+        </div>
+          <div className="col-lg-6 col-sm-12 mt-5">
+            <h1 className="business-solution-section-title mt-5">
+            Business And Consulting
+            </h1>
+            <p className="business-solution-section-text">
+              Totam rem aperiam, eaque ipsa quae ab illo inventore veri
+              <br /> tatis et quasi archi. Totam rem aperiam, eaque ipsa quae
+              <br /> abillo. Totam rem aperiam, eaque ipsa quae ab illo
+              <br /> inventore veritatis et quasi archi.
+              <br />
+              <br />
+              On the other hand we denounce with righteous indignation
+              <br /> and dislike men who are so beguiled.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-6 col-sm-12 mt-5">
+            <h1 className="business-solution-section-title mt-5">
+            Strategy Advisory
+            </h1>
+            <p className="business-solution-section-text">
+              Totam rem aperiam, eaque ipsa quae ab illo inventore veri
+              <br /> tatis et quasi archi. Totam rem aperiam, eaque ipsa quae
+              <br /> abillo. Totam rem aperiam, eaque ipsa quae ab illo
+              <br /> inventore veritatis et quasi archi.
+              <br />
+              <br />
+              On the other hand we denounce with righteous indignation
+              <br /> and dislike men who are so beguiled.
+            </p>
+          </div>
+
+          <div className="col-lg-6 col-sm-12 mt-2">
+            <img src={require("../../images/service3.png")} alt="img" />
           </div>
         </div>
       </div>
