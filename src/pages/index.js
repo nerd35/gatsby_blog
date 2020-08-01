@@ -18,8 +18,8 @@ const IndexPage = () => (
         <PartnerSection />
         <HelpfulSection />
         <BusinessSolution/>
-        <GetInTouch/>
       </Layout>
+      <GetInTouch/>
     </div>
   </div>
 )
