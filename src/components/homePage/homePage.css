@@ -111,3 +111,28 @@
 .btn-info{
   background-color: #413aa4 !important;
 }
+
+.carousel-section{
+  background-image: url('../../images/shape-wave.png');
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel-title{
+  font-family: Poppins,Mirza,sans-serif;
+  font-size: 1.33rem;
+  color: #202428;
+  font-weight: 600;
+}
+.carousel-position-title{
+  font-family: Poppins,Mirza,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5a6671;
+}
+.carousel-position-text{
+  font-family: Poppins,Mirza,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5a6671;
+}

@@ -8,6 +8,7 @@ import PartnerSection from "../components/homePage/partnerSection"
 import HelpfulSection from "../components/homePage/helpfulSection"
 import BusinessSolution from "../components/homePage/businessSolution"
 import GetInTouch from '../components/homePage/getInTouch'
+import TestimonialSection from '../components/homePage/testimonialSection'
 
 const IndexPage = () => (
   <div>
@@ -20,6 +21,7 @@ const IndexPage = () => (
         <BusinessSolution/>
       </Layout>
       <GetInTouch/>
+      <TestimonialSection/>
     </div>
   </div>
 )
