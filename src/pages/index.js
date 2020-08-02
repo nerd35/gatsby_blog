@@ -4,10 +4,9 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import {HeroSection, PartnerSection, HelpfulSection, BusinessSolution, GetInTouch, TestimonialSection,  LatestNewsSection} from '../components/homePage'
+import {HeroSection, PartnerSection, HelpfulSection, BusinessSolution, GetInTouch, TestimonialSection,  LatestNewsSection, NewsLetterSection, FooterSection} from '../components/homePage'
 
 const IndexPage = () => (
-  <div>
     <div>
       <Layout>
         <SEO title="Home" />
@@ -19,7 +18,8 @@ const IndexPage = () => (
       <GetInTouch/>
       <TestimonialSection/>
       <LatestNewsSection/>
-    </div>
+      <NewsLetterSection/>
+      <FooterSection/>
   </div>
 )
 

@@ -5,4 +5,5 @@ export { default as BusinessSolution } from './businessSolution'
 export { default as GetInTouch } from './getInTouch'
 export { default as TestimonialSection } from './testimonialSection'
 export { default as LatestNewsSection } from './latestNewsSection'
-
+export { default as NewsLetterSection } from './newsLetterSection'
+export { default as FooterSection } from './footerSection'

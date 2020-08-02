@@ -5,7 +5,7 @@ import './homePage.css'
 
 const LatestNewsSection = () => {
   return (
-    <div className="container mt-3">
+    <div className="container mt-3 mb-5">
       <div className="row mt-5">
         <div className="col-lg-12 col-sm-12 mt-3 mb-2 text-center">
           <h1 className="latest-news-title">Check Our Latest News</h1>
@@ -13,7 +13,7 @@ const LatestNewsSection = () => {
         </div>
       </div>
       <div className="card-deck">
-        <div className="card">
+        <div className="card shadow">
           <img
             src={require("../../images/blog-1.jpg")}
             className="card-img-top"
@@ -29,7 +29,7 @@ const LatestNewsSection = () => {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="card shadow">
           <img
             src={require("../../images/blog-2.jpg")}
             className="card-img-top"
@@ -45,7 +45,7 @@ const LatestNewsSection = () => {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="card shadow">
           <img
             src={require("../../images/blog-3.jpg")}
             className="card-img-top"
