@@ -192,3 +192,50 @@
   background-color: #413aa4;
   border-color: #413aa4;
 }
+.bg-light1{
+  background-color: #f5f6f7;
+}
+.tel-no{
+  font-family: Poppins,Mirza,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  display: block;
+  color: #5a6671;
+}
+.tel-no1{
+  font-family: Poppins,Mirza,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  display: block;
+  color: #5a6671;
+}
+.tel-no:hover{
+  font-family: Poppins,Mirza,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  display: block;
+  color: #fc690a;
+}
+
+.link-title{
+  font-size: 1.13333rem;
+  color: #202428;
+}
+.links-text{
+  font-family: Poppins,Mirza,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5a6671;
+}
+
+.copyright-text{
+  font-family: Poppins,Mirza,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5a6671;
+    text-align: left;
+}
+.text-warning{
+  color: #fc690a !important;
+}
