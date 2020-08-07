@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
           </Nav.Link>
           <Nav.Link href="#link" style={{color: '#5a6671', fontSize: "1rem", fontFamily: "Poppins,Mirza,sans-serif", paddingRight: 12}}>Pages</Nav.Link>
           <Nav.Link href="#link" style={{color: '#5a6671', fontSize: "1rem", fontFamily: "Poppins,Mirza,sans-serif", paddingRight: 12}}>Elements</Nav.Link>
-          <Nav.Link href="#link" style={{color: '#5a6671', fontSize: "1rem", fontFamily: "Poppins,Mirza,sans-serif", paddingRight: 12}}>About</Nav.Link>
+          <Nav.Link href="/about" style={{color: '#5a6671', fontSize: "1rem", fontFamily: "Poppins,Mirza,sans-serif", paddingRight: 12}}>About</Nav.Link>
           <Nav.Link href="#link" style={{color: '#5a6671', fontSize: "1rem", fontFamily: "Poppins,Mirza,sans-serif", paddingRight: 12}}>Contact</Nav.Link>
           <Nav.Link href="#link" style={{color: '#5a6671', fontSize: "1rem", fontFamily: "Poppins,Mirza,sans-serif", paddingRight: 12}}>Blog</Nav.Link>
           <Nav.Link href="#link" style={{color: '#5a6671', fontSize: "1rem", fontFamily: "Poppins,Mirza,sans-serif", paddingRight: 12}}>Shop</Nav.Link>
