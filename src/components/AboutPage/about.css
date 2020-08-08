@@ -71,8 +71,8 @@
 .key-figure-section{
   background-image:
   linear-gradient(
-      rgba(138,43,226, 0.8), 
-      rgba(138,43,226, 0.8)
+      rgba(75,0,130, 0.8), 
+      rgba(75,0,130, 0.8)
     ),
   url("../../images/cbg5.jpg");
   max-width: 100%;
@@ -95,6 +95,7 @@
   color: #fff;
 }
 .figure-count-title{
+  font-family: Poppins,Mirza,sans-serif;
   color: #06b590;
   font-size: 3.2rem;
   line-height: 3.66rem;
@@ -105,4 +106,37 @@
   font-weight: 500;
   font-family: Poppins,Mirza,sans-serif;
   font-size: 1rem;
+}
+.bg-grey{
+  background-color:rgba(65,58,164,.1);
+}
+.mission-title{
+  font-family: Poppins,Mirza,sans-serif;
+  font-weight: 600;
+  font-size: 2.0rem;
+  line-height: 1.4;
+  color: #202428;
+  box-sizing: border-box;
+}
+.mission-text{
+  font-family: Poppins,Mirza,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5a6671;
+  line-height: 1.5rem;
+}
+.bg-light-arrow-list{
+  font-family: Poppins,Mirza,sans-serif;
+  background: rgba(65,58,164,.1);
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 50%;
+  color:#202428;;
+}
+.bg-light-arrow-list-text{
+  font-weight: 500;
+  color: #202428;
+  font-family: Poppins,Mirza,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
 }

@@ -3,6 +3,7 @@ import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, Ca
 import classnames from 'classnames';
 import AboutUs from './aboutus/AboutUs'
 import KeyFigures from './aboutus/keyFigures'
+import MissionVission from './aboutus/missionVission'
 
 const TabSection = (props) => {
   const [activeTab, setActiveTab] = useState('1');
@@ -88,6 +89,7 @@ const TabSection = (props) => {
             <Col sm="12">
               <AboutUs/>
               <KeyFigures/>
+              <MissionVission/>
             </Col>
           </Row>
         </TabPane>
