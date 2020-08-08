@@ -1,13 +1,13 @@
 .bg-purple{
   margin: 0;
   padding: 0;
-  background-color: rgb(60, 5, 163);
+  background-color: #fc690a;
 }
 .top-nav-test{
   font-family: Poppins,Mirza,sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 400;
-  color: rgba(255,255,255,.6);
+  color: #fff;
 }
 .hero-section{
   background-image: url("../../images/breadbg.jpg");
@@ -15,4 +15,55 @@
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.7;
+}
+.about-title{
+  font-size: 1.6rem;
+  color: #fff;
+  width: 50rem;
+  line-height: 3.6rem;
+}
+.about-home-link{
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+.about-breadcrumb{
+  color: rgba(255,255,255,.5);
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+}
+.breadcrumb1{
+  margin-top: 50px;
+  margin-right: 200px;
+}
+.overview-title{
+  font-family: Poppins,Mirza,sans-serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: #202428;
+  box-sizing: border-box;
+}
+.overview-text{
+  line-height: 2rem;
+  box-sizing: border-box;
+  font-family: Poppins,Mirza,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5a6671;
+}
+.btn-success{
+  background-color: #06b590 !important;
+  border: 0px solid !important;
+}
+.text-light{
+  font-family: Poppins,Mirza,sans-serif !important;
+  text-transform: capitalize  !important;
+  font-size: .93333rem  !important;
+  font-weight: 500  !important;
+  color: #fff  !important;
+  cursor: pointer  !important;
+  justify-content: center  !important;
 }

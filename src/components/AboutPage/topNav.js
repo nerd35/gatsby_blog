@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './about.css'
  
 const TopNav = () =>  (
-    <div className="container-fluid bg-purple">
+    <div className="container-fluid bg-purple d-none d-md-block">
       <div className="container">
       <span className="px-3"><img className='mt-2 mb-2' src={require('../../images/favicon.png')} style={{maxWidth: '25px'}}/> <span className="top-nav-test px-2">support@email.com </span></span>
       <span className="px-3"><img className='mt-2 mb-2' src={require('../../images/music.png')} style={{maxWidth: '25px'}}/> <span className="top-nav-test px-2">800 567.890.576  </span></span>
