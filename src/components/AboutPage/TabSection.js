@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 import AboutUs from './aboutus/AboutUs'
+import KeyFigures from './aboutus/keyFigures'
 
 const TabSection = (props) => {
   const [activeTab, setActiveTab] = useState('1');
@@ -86,6 +87,7 @@ const TabSection = (props) => {
           <Row>
             <Col sm="12">
               <AboutUs/>
+              <KeyFigures/>
             </Col>
           </Row>
         </TabPane>
