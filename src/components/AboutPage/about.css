@@ -140,3 +140,30 @@
     font-size: 1rem;
     line-height: 1.5;
 }
+.why-choose-us-title{
+  font-family: Poppins,Mirza,sans-serif;
+  color: #202428;
+  font-weight: 600;
+  font-size: 2.4rem;
+  box-sizing: border-box;
+}
+.bg-icons{
+  height: 55px;
+  background-color: #fc690a;
+}
+.bg-icons:hover{
+background-color: #06b590;
+}
+.why-choose-us-reason-title{
+  color: #202428;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.why-choose-us-reason-text{
+  font-family: Poppins,Mirza,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5a6671;
+}

@@ -4,6 +4,7 @@ import classnames from 'classnames';
 import AboutUs from './aboutus/AboutUs'
 import KeyFigures from './aboutus/keyFigures'
 import MissionVission from './aboutus/missionVission'
+import WhyChooseUs from './aboutus/whyChooseUs'
 
 const TabSection = (props) => {
   const [activeTab, setActiveTab] = useState('1');
@@ -90,6 +91,7 @@ const TabSection = (props) => {
               <AboutUs/>
               <KeyFigures/>
               <MissionVission/>
+              <WhyChooseUs/>
             </Col>
           </Row>
         </TabPane>
