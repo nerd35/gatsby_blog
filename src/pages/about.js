@@ -8,7 +8,7 @@ import { FooterSection } from '../components/homePage'
 import Header from '../components/header'
 
 
-const IndexPage = () => (
+const AboutPage = () => (
   <div>
       <SEO title='About us' />
       <TopNav />
@@ -19,4 +19,4 @@ const IndexPage = () => (
   </div>
 )
 
-export default IndexPage
+export default AboutPage
