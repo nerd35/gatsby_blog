@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { TopNav, HeroSection, TabSection, NewTabNav } from '../components/AboutPage'
+import { TopNav, HeroSection, NewTabNav } from '../components/AboutPage'
 import { FooterSection } from '../components/homePage'
 import Header from '../components/header'
 
