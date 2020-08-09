@@ -96,7 +96,7 @@
 }
 .figure-count-title{
   font-family: Poppins,Mirza,sans-serif;
-  color: #06b590;
+  color: #fc690a;
   font-size: 3.2rem;
   line-height: 3.66rem;
   font-weight: 600;
@@ -152,7 +152,7 @@
   background-color: #fc690a;
 }
 .bg-icons:hover{
-background-color: #06b590;
+background-color: rgba(75,0,130, 0.8);
 }
 .why-choose-us-reason-title{
   color: #202428;

@@ -8,7 +8,7 @@ const MissionVission = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-sm-12 py-5">
-            <div className="px-2">
+            <div className="">
               <h1 className="mission-title">Bantus Mission</h1>
               <p className='mission-text'>Investiga tiones demonstr averunt lectres legere melius quodqua legunt saepius. Clarias kest etiam pro cessus dynamicus squitur mutaety tion em consum etudium. Investig ationes demons trave huerunt lectores legere liusry. Investiga tiones demonstr averunt.</p>
               <p className="mb-0"><span className="bg-light-arrow-list px-2 py-1"> {`>`} </span><span className="px-3 bg-light-arrow-list-text">Client-Focused</span></p>

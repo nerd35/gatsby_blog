@@ -14,7 +14,7 @@ const AboutUs = () => {
         <Link className="btn btn-success btn-lg  px-3 text-light">Company brochure</Link>
         </div>
         <div className="col-lg-6 col-sm-12">
-        <img src={require('../../../images/simg-2.jpg')} style={{borderRadius: '50%'}}/>
+        <img src={require('../../../images/simg-2.jpg')} style={{borderRadius: '50%', width: "100%"}}/>
         </div>
       </div>
     </div>

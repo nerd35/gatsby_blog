@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { TopNav, HeroSection, TabSection } from '../components/AboutPage'
+import { TopNav, HeroSection, TabSection, NewTabNav } from '../components/AboutPage'
 import { FooterSection } from '../components/homePage'
 import Header from '../components/header'
 
@@ -14,7 +14,7 @@ const IndexPage = () => (
       <TopNav />
       <Header/>
       <HeroSection/>
-      <TabSection/>
+      <NewTabNav/>
     <FooterSection />
   </div>
 )
